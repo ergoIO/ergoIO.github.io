@@ -13,4 +13,18 @@ $(document).ready(function() {
             $("#arrow").attr("src", "css/alan/arrowDown.svg");
         }        
     });
+
+    $(window).scroll(function() {
+        var height = $(window).scrollTop();
+        if (height > 549) {
+            $("#backToTopDiv").removeClass('hide');
+        }
+        else {
+            $("#backToTopDiv").addClass('hide');
+        }
+    });
+
+    $("#backToTop").click(function(event) {
+        $("html, body").animate({scrollTop: 0}, 800);
+    });
 });
