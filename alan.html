@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="css/alan/alan.css">
 </head>
 
 <body>
@@ -18,8 +19,8 @@
                     class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link"
-                            href="projects-grid-cards.html">Projects</a></li>
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link"
+                            href="projects-grid-cards.html">Projects</a></li> -->
                 </ul>
             </div>
         </div>
@@ -32,340 +33,355 @@
                     <p>Hi, I'm <strong>Alan</strong>.<br></p>
                     <p>I have an interest in front-end development and game programming!</p>
 
-                    <a href="#" class="btn btn-outline-primary" role="button">Open Portfolio</a>
-                    <a href="#" class="btn btn-outline-primary" role="button">Projects</a>
-                    <a href="#" class="btn btn-outline-primary" role="button">Resume</a>
-
-                    <!-- <a class="btn btn-outline-primary" role="button" href="#">Hire me</a> -->
+                    
+                    <a href="alanprojects.html" class="btn btn-outline-primary" role="button">Projects</a>
+                    <a href="https://docs.google.com/document/d/1k8DmQVca4hfvelDlDtW-W80BrYRmTxJFGFzE0qbrlXw/edit?usp=sharing" target="_blank" class="btn btn-outline-primary" role="button">Resume</a>
+                    
+                    <div style="margin-bottom: -45px;">
+                        <br>
+                        <button data-toggle="collapse" data-target="#portfolio" id="portfolioArrow">
+                            <img id="arrow" style="width: 50px;" src="css/alan/arrowDown.svg" alt="arrowDown">
+                        </button>
+                    </div>
                 </div>
-
             </div>
         </section>
+        <div class="collapse" id="portfolio">
         <section class="portfolio-block cv">
-            <div class="container">
-                <div class="work-experience group">
-                    <div class="heading">
-                        <h2 class="text-center">Work Experience</h2>
-                    </div>
-
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Software Intern</h3>
-                                <h4 class="organization">Senju Comtek Corp.</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">June 2019 - July 2019</span></div>
+            
+                <div class="container">
+                    <div class="work-experience group">
+                        <div class="heading">
+                            <h2 class="text-center">Work Experience</h2>
                         </div>
-                        <p class="text-muted">
-                            <ul>
-                                <li>Revamped frontend design using Bootstrap for company web reports system for over 20
-                                    pages.</li>
-                                <li>Worked on PHP files in order to fix login authentication issue for company web
-                                    reports site.
-                                </li>
-                                <li>Learned basic Laravel, an object oriented programming framework, to replace classic
-                                    in-line PHP.
-                                </li>
-                                <li>Created PHP script to update user passwords in MySQL database for all ~30 employees.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="projects group">
-                    <div class="heading">
-                        <h2 class="text-center">Projects</h2>
-                    </div>
 
 
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>cloudseason.org</h3>
-                                <h4 class="organization">NodeJS/Express</h4>
-                                <h4 class="organization">Google Firebase</h4>
-                                <h4 class="organization">JQuery</h4>
-                                <h4 class="organization">HBS</h4>
-                                <h4 class="organization">CSS</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">
-                                    <a href="https://cloudseason.org/alan" target="_blank"><i
-                                            class="icon ion-link icon"></i> cloudseason.org/alan</a>
-                                </span></div>
-                        </div>
-                        <p class="text-muted">
-                            <strong>IN PROGRESS</strong>
-                            <ul>
-                                <li>
-                                    Uses Google Firebase, NodeJS/Express.
-                                </li>
-                                <li>
-                                    Uses HBS, CSS, JQuery, Bootstrap for the frontend design.
-                                </li>
-                                <li>
-                                    Database will be used to add new portfolio items, rather than hard-coding them into
-                                    the source
-                                    files.
-                                </li>
-                                <li>
-                                    cloudseason.org/alan houses my new portfolio, and will soon use it over
-                                    alansdpark.github.io--once completed.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>SenjuPrac</h3>
-                                <h4 class="organization">Laravel/PHP</h4>
-                                <h4 class="organization">MySQL</h4>
-                                <h4 class="organization">CSS</h4>
-                                <h4 class="organization">DBngin</h4>
-                                <h4 class="organization">Sequel Pro</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">
-                                    <a href="https://github.com/alansdpark/LaravelDatabaseSite" target="_blank"><i
-                                            class="icon ion-link icon"></i> GitHub repo</a>
-                                </span></div>
-                        </div>
-                        <p class="text-muted">
-                            <ul>
-                                <li>
-                                    Uses Laravel PHP Framework.
-                                </li>
-                                <li>
-                                    Features a working sign-up, login, and edit user.
-                                </li>
-                                <li>
-                                    Utilizes MySQL for database, which holds account data.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Two Player One Keyboard Games</h3>
-                                <h4 class="organization">HTML</h4>
-                                <h4 class="organization">CSS</h4>
-                                <h4 class="organization">JQuery</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">
-                                    <a href="https://alansdpark.github.io/TwoPlayerOneKeyboardGames" target="_blank"><i
-                                            class="icon ion-link icon"></i> Two Player One Keyboard Games</a>
-                                </span></div>
-                        </div>
-                        <p class="text-muted">
-                            <strong>IN-PROGRESS</strong>
-                            <ul>
-                                <li>
-                                    Hosted by GitHub, this website was created to practice Javascript, as
-                                    alansdpark.github.io/
-                                    uses Javascript very minimally.
-                                </li>
-                                <li>
-                                    TwoPlayerOneKeyboardGames hosts three games, and one virtual dice roller.
-                                </li>
-                                <li>
-                                    This is one of my current projects, and so far only the dice roller has been
-                                    completed.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>alansdpark.github.io</h3>
-                                <h4 class="organization">HTML</h4>
-                                <h4 class="organization">CSS</h4>
-                                <h4 class="organization">JQuery</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">
-                                    <a href="https://alansdpark.github.io" target="_blank"><i
-                                            class="icon ion-link icon"></i> alansdpark.github.io</a>
-                                </span></div>
-                        </div>
-                        <p class="text-muted">
-                            <ul>
-                                <li>First website created, acted as first portfolio.</li>
-                                <li>Keeps my portfolio, resume, and GitHub together in one place.</li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Sticky Tongue</h3>
-                                <h4 class="organization">Unity3D</h4>
-                                <h4 class="organization">C#</h4>
-                                <h4 class="organization">Paint.net</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">
-                                    <a href="https://github.com/alansdpark/Sticky-Tongue" target="_blank"><i
-                                            class="icon ion-link icon"></i> GitHub repo</a>
-                                    <a style="margin-left: 4px;" href="https://www.youtube.com/watch?v=6dEUQZn4Qw4"
-                                        target="_blank"><i class="icon ion-link icon"></i> Gameplay video</a>
-                                </span></div>
-                        </div>
-                        <p class="text-muted">
-                            <ul>
-                                <li>Sticky Tongue is one of my first games made using a game engine.</li>
-                                <li>I used Unity3D to create a 2D game using sprites my friend created, and
-                                    the goal of the game is to catch flies as they pass by, and avoid bees.</li>
-                                <li>
-                                    It features a high score system saved on your PC, and has a functional main
-                                    menu/pause menu.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Plants Vs Robots</h3>
-                                <h4 class="organization">Java</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">
-                                    <a href="https://github.com/alansdpark/PlantsVsRobotsGame" target="_blank"><i
-                                            class="icon ion-link icon"></i> GitHub repo</a>
-                                </span></div>
-                        </div>
-                        <p class="text-muted">
-                            <ul>
-                                <li>
-                                    "Plants Vs Robots" was my final project for AP Computer Science in 11th Grade.
-                                </li>
-                                <li>
-                                    Using Java, I was able to create a 2D game using sprites I created.
-                                </li>
-                                <li>
-                                    This game is based on a popular desktop and cellular game, Plants Vs Zombies, where
-                                    waves of
-                                    "zombies" come
-                                    and try to enter your home.
-                                </li>
-                                <li>
-                                    Check out the game on GitHub! You can run the game by running the Main file in
-                                    Eclipse (the whole
-                                    project must
-                                    be imported into Eclipse).
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-
-
-                </div>
-
-                <div class="education group">
-                    <div class="heading">
-                        <h2 class="text-center">Education</h2>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Software Engineering B.S.</h3>
-                                <h4 class="organization">San Jose State University</h4>
-                            </div>
-                            <div class="col-6"><span class="period">August 2018 - May 2022</span></div>
-                        </div>
-                        <p class="text-muted">
-
-
-
-                            <h5>Current SJSU GPA: 3.020</h5>
-                            <br>
-                            <h5>Classes Completed</h5>
-                            <div class="borderSplitPort container-fluid"></div>
-                            <p class="descriptionGame gameDescMarg">
-                                Introduction to Computer Science (2015-2016) <br />
-                                AP Computer Science (2016-2017) <br />
-                                CS 46B - Introduction to Data Structures (Spring 2019) <br>
-                                E10 - Introduction to Engineering (Spring 2019)
-                            </p>
-
-                            <h5>Classes In Progress (Fall 2019)</h5>
-                            <div class="borderSplitPort container-fluid"></div>
-                            <p class="descriptionGame gameDescMarg">
-                                CS 146 - Data Structures and Algorithms <br>
-                                CMPE 131 - Software Engineering I <br>
-                                CMPE 120 - Computer Organization and Architecture
-                            </p>
-
-                            <h5>Classes Planned (Spring 2020)</h5>
-                            <div class="borderSplitPort container-fluid"></div>
-                            <p class="descriptionGame gameDescMarg">
-                                CMPE 133 - Software Engineering II <br>
-                                CS 151 - Object Oriented Design
-                            </p>
-
-
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class="group">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="skills portfolio-info-card">
-                                <h2>Skills</h2>
-                                <h3>Java</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 100%;"><span class="sr-only">100%</span></div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Software Intern</h3>
+                                    <h4 class="organization">Senju Comtek Corp.</h4>
                                 </div>
-                                <h3>PHP/HTML</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 90%;"><span class="sr-only">90%</span></div>
+                                <div class="col-md-6"><span class="period">June 2019 - July 2019</span></div>
+                            </div>
+                            <p class="text-muted">
+                                <ul>
+                                    <li>Revamped frontend design using Bootstrap for company web reports system for over
+                                        20
+                                        pages.</li>
+                                    <li>Worked on PHP files in order to fix login authentication issue for company web
+                                        reports site.
+                                    </li>
+                                    <li>Learned basic Laravel, an object oriented programming framework, to replace
+                                        classic
+                                        in-line PHP.
+                                    </li>
+                                    <li>Created PHP script to update user passwords in MySQL database for all ~30
+                                        employees.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projects group">
+                        <div class="heading">
+                            <h2 class="text-center">Projects</h2>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>cloudseason.org</h3>
+                                    <h4 class="organization">NodeJS/Express</h4>
+                                    <h4 class="organization">Google Firebase</h4>
+                                    <h4 class="organization">JQuery</h4>
+                                    <h4 class="organization">HBS</h4>
+                                    <h4 class="organization">CSS</h4>
                                 </div>
-                                <h3>Javascript</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 80%;"><span class="sr-only">80%</span></div>
+                                <div class="col-md-6"><span class="period">
+                                        <a href="https://cloudseason.org/alan" target="_blank"><i
+                                                class="icon ion-link icon"></i> cloudseason.org/alan</a>
+                                    </span></div>
+                            </div>
+                            <p class="text-muted">
+                                <strong>IN PROGRESS</strong>
+                                <ul>
+                                    <li>
+                                        Uses Google Firebase, NodeJS/Express.
+                                    </li>
+                                    <li>
+                                        Uses HBS, CSS, JQuery, Bootstrap for the frontend design.
+                                    </li>
+                                    <li>
+                                        Database will be used to add new portfolio items, rather than hard-coding them
+                                        into
+                                        the source
+                                        files.
+                                    </li>
+                                    <li>
+                                        cloudseason.org/alan houses my new portfolio, and will soon use it over
+                                        alansdpark.github.io--once completed.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>SenjuPrac</h3>
+                                    <h4 class="organization">Laravel/PHP</h4>
+                                    <h4 class="organization">MySQL</h4>
+                                    <h4 class="organization">CSS</h4>
+                                    <h4 class="organization">DBngin</h4>
+                                    <h4 class="organization">Sequel Pro</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">
+                                        <a href="https://github.com/alansdpark/LaravelDatabaseSite" target="_blank"><i
+                                                class="icon ion-link icon"></i> GitHub repo</a>
+                                    </span></div>
+                            </div>
+                            <p class="text-muted">
+                                <ul>
+                                    <li>
+                                        Uses Laravel PHP Framework.
+                                    </li>
+                                    <li>
+                                        Features a working sign-up, login, and edit user.
+                                    </li>
+                                    <li>
+                                        Utilizes MySQL for database, which holds account data.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Two Player One Keyboard Games</h3>
+                                    <h4 class="organization">HTML</h4>
+                                    <h4 class="organization">CSS</h4>
+                                    <h4 class="organization">JQuery</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">
+                                        <a href="https://alansdpark.github.io/TwoPlayerOneKeyboardGames"
+                                            target="_blank"><i class="icon ion-link icon"></i> Two Player One Keyboard
+                                            Games</a>
+                                    </span></div>
+                            </div>
+                            <p class="text-muted">
+                                <strong>IN-PROGRESS</strong>
+                                <ul>
+                                    <li>
+                                        Hosted by GitHub, this website was created to practice Javascript, as
+                                        alansdpark.github.io/
+                                        uses Javascript very minimally.
+                                    </li>
+                                    <li>
+                                        TwoPlayerOneKeyboardGames hosts three games, and one virtual dice roller.
+                                    </li>
+                                    <li>
+                                        This is one of my current projects, and so far only the dice roller has been
+                                        completed.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>alansdpark.github.io</h3>
+                                    <h4 class="organization">HTML</h4>
+                                    <h4 class="organization">CSS</h4>
+                                    <h4 class="organization">JQuery</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">
+                                        <a href="https://alansdpark.github.io" target="_blank"><i
+                                                class="icon ion-link icon"></i> alansdpark.github.io</a>
+                                    </span></div>
+                            </div>
+                            <p class="text-muted">
+                                <ul>
+                                    <li>First website created, acted as first portfolio.</li>
+                                    <li>Keeps my portfolio, resume, and GitHub together in one place.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Sticky Tongue</h3>
+                                    <h4 class="organization">Unity3D</h4>
+                                    <h4 class="organization">C#</h4>
+                                    <h4 class="organization">Paint.net</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">
+                                        <a href="https://github.com/alansdpark/Sticky-Tongue" target="_blank"><i
+                                                class="icon ion-link icon"></i> GitHub repo</a>
+                                        <a style="margin-left: 4px;" href="https://www.youtube.com/watch?v=6dEUQZn4Qw4"
+                                            target="_blank"><i class="icon ion-link icon"></i> Gameplay video</a>
+                                    </span></div>
+                            </div>
+                            <p class="text-muted">
+                                <ul>
+                                    <li>Sticky Tongue is one of my first games made using a game engine.</li>
+                                    <li>I used Unity3D to create a 2D game using sprites my friend created, and
+                                        the goal of the game is to catch flies as they pass by, and avoid bees.</li>
+                                    <li>
+                                        It features a high score system saved on your PC, and has a functional main
+                                        menu/pause menu.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Plants Vs Robots</h3>
+                                    <h4 class="organization">Java</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">
+                                        <a href="https://github.com/alansdpark/PlantsVsRobotsGame" target="_blank"><i
+                                                class="icon ion-link icon"></i> GitHub repo</a>
+                                    </span></div>
+                            </div>
+                            <p class="text-muted">
+                                <ul>
+                                    <li>
+                                        "Plants Vs Robots" was my final project for AP Computer Science in 11th Grade.
+                                    </li>
+                                    <li>
+                                        Using Java, I was able to create a 2D game using sprites I created.
+                                    </li>
+                                    <li>
+                                        This game is based on a popular desktop and cellular game, Plants Vs Zombies,
+                                        where
+                                        waves of
+                                        "zombies" come
+                                        and try to enter your home.
+                                    </li>
+                                    <li>
+                                        Check out the game on GitHub! You can run the game by running the Main file in
+                                        Eclipse (the whole
+                                        project must
+                                        be imported into Eclipse).
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="education group">
+                        <div class="heading">
+                            <h2 class="text-center">Education</h2>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Software Engineering B.S.</h3>
+                                    <h4 class="organization">San Jose State University</h4>
+                                </div>
+                                <div class="col-6"><span class="period">August 2018 - May 2022</span></div>
+                            </div>
+                            <p class="text-muted">
+
+
+
+                                <h5>Current SJSU GPA: 3.020</h5>
+                                <br>
+                                <h5>Classes Completed</h5>
+                                <div class="borderSplitPort container-fluid"></div>
+                                <p class="descriptionGame gameDescMarg">
+                                    Introduction to Computer Science (2015-2016) <br />
+                                    AP Computer Science (2016-2017) <br />
+                                    CS 46B - Introduction to Data Structures (Spring 2019) <br>
+                                    E10 - Introduction to Engineering (Spring 2019)
+                                </p>
+
+                                <h5>Classes In Progress (Fall 2019)</h5>
+                                <div class="borderSplitPort container-fluid"></div>
+                                <p class="descriptionGame gameDescMarg">
+                                    CS 146 - Data Structures and Algorithms <br>
+                                    CMPE 131 - Software Engineering I <br>
+                                    CMPE 120 - Computer Organization and Architecture
+                                </p>
+
+                                <h5>Classes Planned (Spring 2020)</h5>
+                                <div class="borderSplitPort container-fluid"></div>
+                                <p class="descriptionGame gameDescMarg">
+                                    CMPE 133 - Software Engineering II <br>
+                                    CS 151 - Object Oriented Design
+                                </p>
+
+
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="skills portfolio-info-card">
+                                    <h2>Skills</h2>
+                                    <h3>Java</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0"
+                                            aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span>
+                                        </div>
+                                    </div>
+                                    <h3>PHP/HTML</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="90" aria-valuemin="0"
+                                            aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span>
+                                        </div>
+                                    </div>
+                                    <h3>Javascript</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-info portfolio-info-card">
-                                <h2>Contact Info</h2>
-                                <!-- <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-info portfolio-info-card">
+                                    <h2>Contact Info</h2>
+                                    <!-- <div class="row">
                                     <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
                                     <div class="col-9"><span>10/10/1990</span></div>
                                 </div> -->
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-person icon"></i></div>
-                                    <div class="col-9"><span>Alan Park</span></div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-pin icon" style="padding-left: 3px;"></i>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-person icon"></i></div>
+                                        <div class="col-9"><span>Alan Park</span></div>
                                     </div>
-                                    <div class="col-9"><span>San Francisco Bay Area</span></div>
-                                </div>
-                                <!-- <div class="row">
+
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-pin icon" style="padding-left: 3px;"></i>
+                                        </div>
+                                        <div class="col-9"><span>San Francisco Bay Area</span></div>
+                                    </div>
+                                    <!-- <div class="row">
                                     <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
                                     <div class="col-9"><span>+235 3217 424</span></div>
                                 </div> -->
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-at icon"></i></div>
-                                    <div class="col-9"><span>alansdpark@gmail.com</span></div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-at icon"></i></div>
+                                        <div class="col-9"><span>alansdpark@gmail.com</span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="hobbies group">
+                    <!-- <div class="hobbies group">
                     <div class="heading">
                         <h2 class="text-center">Hobbies</h2>
                     </div>
@@ -373,21 +389,24 @@
                         Gaming, Skateboarding
                     </p>
                 </div> -->
-            </div>
+                </div>
+            
         </section>
+        </div>
     </main>
     <footer class="page-footer">
         <div class="container">
             <!-- <div class="links"> -->
-                <!-- <a href="#">About me</a> -->
-                <!-- <a href="#">Contact me</a> -->
-                <!-- <a href="#">Projects</a> -->
+            <!-- <a href="#">About me</a> -->
+            <!-- <a href="#">Contact me</a> -->
+            <!-- <a href="#">Projects</a> -->
 
             <!-- </div> -->
-            <p>Alan</p>
+            <p>Alan's Links</p>
             <div class="social-icons">
                 <a href="https://github.com/alansdpark" target="_blank"><i class="icon ion-social-github"></i></a>
-                <a href="https://www.linkedin.com/in/alan-p-568987139/" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/alan-p-568987139/" target="_blank"><i
+                        class="icon ion-social-linkedin"></i></a>
             </div>
         </div>
     </footer>
@@ -395,6 +414,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="js/alan/alan.js"></script>
 </body>
 
 </html>
