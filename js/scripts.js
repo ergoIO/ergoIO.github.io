@@ -8,6 +8,10 @@ $(document).ready(function() {
             $("#logo").addClass('whiteTxt');
             $("#projects").removeClass('blackTxt');
             $("#logo").removeClass('blackTxt');
+
+            // Hamburger
+            $(".navbar-toggler").addClass('whiteBack');
+            $(".navbar-toggler").removeClass('blackBack');
         }
         else {
             $(".navbar").addClass('bg-transparent');
@@ -16,6 +20,10 @@ $(document).ready(function() {
             $("#logo").addClass('blackTxt');
             $("#projects").removeClass('whiteTxt');
             $("#logo").removeClass('whiteTxt');
+
+            // Hamburger
+            $(".navbar-toggler").removeClass('whiteBack');
+            $(".navbar-toggler").addClass('blackBack');
         }
     });
       
