@@ -1,4 +1,4 @@
-# ergoIO
+# ergoIO website
 ### Alan Park, Brian Chin, Sunny Shah
 
-ergoIO's website.
+https://ergoio.github.io/
