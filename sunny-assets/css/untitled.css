@@ -1,0 +1,64 @@
+.bg-secondary {
+  background-color: #00386b!important;
+}
+
+.bg-primary {
+  background-color: #0072c6!important;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: #0072c6;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #00386b;
+  border-color: #00386b;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #00386b;
+  border-color: #00386b;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #00386b;
+  border-color: #00386b;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #128f76;
+  border-color: #128f76;
+}
+
+.btn-primary {
+  background-color: #00386b;
+  border-color: #00386b;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #0072c6;
+}
+
+a {
+  color: #0072c6;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #0072c6;
+}
+
+a:active, a:focus, a:hover {
+  color: #0072c6;
+}
+
+a:hover {
+  color: #0072c6;
+  text-decoration: underline;
+}
+
